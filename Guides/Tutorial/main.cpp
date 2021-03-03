@@ -17,6 +17,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
+
     const double inputValue = std::stod(argv[1]);
 
 #ifdef USE_MYMATH
