@@ -7,6 +7,7 @@ project(Tutorial VERSION 1.0)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+
 option(USE_MYMATH "Use tutorial provided math implementation" ON)
 
 configure_file(TutorialConfig.h.in TutorialConfig.h)
